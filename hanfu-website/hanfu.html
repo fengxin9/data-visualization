@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汉服的介绍</title>
+
+     <style>   
+        /* 全局样式 */
+        * {margin:0; padding:0; box-sizing:border-box;}
+        body {
+            font-family: "SimSun", "STKaiti", "楷体", serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #fefaf0;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(255, 215, 0, 0.05) 0%, transparent 20%),
+                radial-gradient(circle at 90% 80%, rgba(205, 92, 92, 0.05) 0%, transparent 20%);
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        /* 标题样式 */
+        h1 {
+            text-align: center;
+            color: #8b0000;
+            font-size: 2.5rem;
+            margin: 30px 0;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #d4af37;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            font-weight: bold;
+            letter-spacing: 5px;
+        }
+        /* 副标题SVG容器 */
+        .subtitle-container {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        /* 内容区域样式 */
+        .content {
+            background-color: rgba(255, 255, 255, 0.85);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            border-left: 5px solid #8b0000;
+        }
+        p {
+            margin-bottom: 20px;
+            text-indent: 2em;
+            font-size: 1.1rem;
+        }
+        /* 二级标题样式 */
+        h2 {
+            color: #8b0000;
+            font-size: 1.8rem;
+            margin: 40px 0 20px;
+            padding-left: 15px;
+            border-left: 4px solid #d4af37;
+            background: linear-gradient(to right, rgba(139, 0, 0, 0.1), transparent);
+        }
+        /* 表格样式 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #8b0000;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {background-color: #f9f5eb;}
+        tr:hover {background-color: #f1e8d8;} /* 鼠标悬停效果 */
+        /* 图片样式 */
+        img {
+            border-radius: 5px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }  
+        /* 链接列表样式 */
+        ul {
+            list-style-type: none;
+            margin: 20px 0;
+        }  
+        li {
+            margin-bottom: 12px;
+            padding-left: 20px;
+            position: relative;
+        }
+        li:before {
+            content: "❖";
+            color: #8b0000;
+            position: absolute;
+            left: 0;
+        }       
+        a {
+            color: #8b0000;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+            border-bottom: 1px dotted #8b0000;
+        }     
+        a:hover {
+            color: #d4af37;
+            border-bottom: 1px solid #d4af37;
+        }
+        /* 结尾段落样式 */
+        h4 {
+            text-align: center;
+            font-style: italic;
+            color: #555;
+            margin: 40px 0;
+            padding: 20px;
+            background-color: #f9f5eb;
+            border-radius: 8px;
+            border-left: 4px solid #d4af37;
+            font-size: 1.1rem;
+        }
+        /* 响应式设计，适配不同显示设备 */
+        @media (max-width: 768px) {
+            body {padding: 10px;}
+            h1 {font-size: 1.8rem;}       
+            .content{padding: 20px;}
+            table {display: block;overflow-x: auto;}
+        }
+    </style>
+    
+</head>
+<body>    <!--标题-->
+    <h1>华夏衣冠，汉家衣裳</h1>
+    <!--svg画副标题-->
+    <svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+    <style>
+      .text-border {font-size:24px; font-weight:bold; font-family:Arial,sans-serif; fill:#333;}
+    </style>
+    </defs>
+    <!--虚线边框-->
+    <rect x="5" y="5" width="290" height="80" fill="none" stroke="#000000" stroke-width="2"stroke-dasharray="10,5"rx="10"/>
+    <!--文字-->
+    <text x="150" y="52" class="text-border" text-anchor="middle">汉服的前世今生</text>
+    </svg>
+
+    <div> <!--简介文本-->
+        <p>汉服，是汉民族的传统服饰，又称衣冠、衣裳、汉装，是中国“衣冠上国”“礼仪之邦”“锦绣中华”的体现，是中华优秀传统文化的重要载体，承载了中国的染织绣等杰出工艺和美学，传承了30多项中国非物质文化遗产以及受保护的中国工艺美术。</p>
+        <p>汉服起源自华夏文明早期，并于商周至汉代时期形成核心形制;它在后续的魏晋、隋唐、宋明等朝代中不断演变与发展，融合了不同时代的审美与文化，但在清朝初期因“剃发易服”政策而被迫中断。汉服“始于黄帝，备于尧舜”，源自黄帝制冕服；后经周朝建制、汉朝汉明帝时期修补定型，最终确定完整体系。此后各个华夏朝代均宗周法汉以继承汉衣冠为国家大事，于是有了二十四史中的舆服志。</p>
+        <p>汉服还通过中华法系影响了整个汉文化圈，亚洲各国如日本、朝鲜、越南、蒙古、不丹等的民族服饰均具有或借鉴汉服特征。</p>
+    </div>
+
+    <!--svg画一朵莲花-->
+    <svg width="100" height="100" viewBox="0 0 100 100">
+    <!-- 莲花花瓣 -->
+    <ellipse cx="50" cy="30" rx="15" ry="20" fill="#FF6B9C" opacity="0.8"/>
+    <ellipse cx="30" cy="40" rx="15" ry="20" fill="#FF6B9C" opacity="0.8" transform="rotate(-45 30 40)"/>
+    <ellipse cx="70" cy="40" rx="15" ry="20" fill="#FF6B9C" opacity="0.8" transform="rotate(45 70 40)"/>
+    <!-- 花蕊 -->
+    <circle cx="50" cy="45" r="8" fill="#FFD700"/>
+    </svg>
+
+    <h2>服饰结构</h2>
+    <p>汉服采用幅宽二尺二寸的布帛剪裁而成，且分为领、襟、衽、衿、裾、袖、袂、带、韨等十部分。取两幅相等长度的布，分别对折，作为前襟后裾，缝合后背中缝。前襟无衽即为直领对襟衣。若再取一幅布，裁为两幅衽，缝在左右两襟上，则为斜领右衽衣。前襟后裾的中缝称为裻，即督脉、任脉，衽在任脉右侧，故称右衽。裾的长度分为腰中，膝上，足上。根据裾的长短，汉服有三种长度∶襦、裋、深衣。袖子与襟裾的接缝称为袼，袖口称为袪。一套完整的汉服通常有三层：小衣（内衣）、中衣、大衣。</p>
+    <p>汉服通常有交领右衽、褒衣广袖、系带隐扣等特征，但随着社会与审美的发展，其形制也不断丰富。演变出圆领、窄袖等更方便日常的形制。</p>
+    
+    <h2>历朝历代的汉服形制</h2>
+    <table>   <!--表格-->
+        <tr>
+            <td>时期</td>
+            <td>特点</td>
+            <td>主要形制</td>
+            <td>图片</td>
+        </tr>
+        <tr>
+            <td>先秦时期</td>
+            <td>庄重古朴，与宗法礼仪紧密结合</td>
+            <td>上衣下裳，深衣（直裾，曲裾）,战国袍</td>
+            <td><img src="./pictures/战国袍.jpg" alt="picture1" width="200" height="350"></td>
+        </tr>    <!--img-->
+        <tr>
+            <td>秦汉时期</td>
+            <td>大气威严</td>
+            <td>曲裾袍，直裾袍，襦裙</td>
+            <td><img src="./pictures/曲裾.jpg" alt="picture2" width="200" height="350"></td>
+        </tr>
+        <tr>
+            <td>魏晋南北朝</td>
+            <td>洒脱飘逸，民族融合</td>
+            <td>交领、曲领晋襦，大袖襦，交窬裙（破裙），褶衣</td>
+            <td><img src="./pictures/魏晋.jpg" alt="picture3" width="200" height="300"></td>
+        </tr>
+        <tr>
+            <td>唐朝</td>
+            <td>雍容华贵、大胆开放</td>
+            <td>圆领袍衫，齐胸襦裙</td>
+            <td><img src="./pictures/唐.jpg" alt="picture4" width="200" height="280"></td>
+        </tr>
+        <tr>
+            <td>宋朝</td>
+            <td>修长素雅，含蓄理性</td>
+            <td>百迭裙，宋抹，褙子，短衫，长衫</td>
+            <td><img src="./pictures/宋.jpg" alt="picture5" width="200" height="300"></td>
+        </tr>
+        <tr>
+            <td>明朝</td>
+            <td>端庄华贵，吉祥纹样</td>
+            <td>马面裙，琵琶袖，比甲</td>
+            <td><img src="./pictures/明.jpg" alt="picture6" width="200" height="300"></td>
+        </tr>
+    </table>
+
+    <h2>当代汉服的发展</h2>
+    <p>汉服本身虽在然清朝剃发易服等统治政策下消失了，但因其具有强大的生命力，其部分元素一直没有灭绝，直到现代汉族人信仰的道教、佛教以及一些边远山民，还有国内许多少数民族的服饰中都还保持着汉服的特征，现代社会的一些重要祭祀、纪念活动、民俗节日等也能看到汉服的部分元素。21世纪初，随着中国国力的发展，人们开始审视自己传统文化中的优秀部分。一些传统文化爱好者通过考据汉服并取其精华、去其糟粕，复原了汉族传统服饰，通过身着汉服过传统节日、推广传统学说、演奏传统乐器等形式重新宣导汉服，这个过程称为汉服运动。</p>
+    <p>随着文化自信的提升和传统文化的复兴，汉服在当代社会逐渐受到关注和喜爱。越来越多的年轻人开始穿着汉服参加各种活动，如传统节日庆典、婚礼、摄影等，汉服文化也通过社交媒体得到了广泛传播同时也诞生了很多知名汉服品牌，吸引更多年轻人了解汉服，穿着汉服。</p>
+    <ul>    <!--无序列表--> <!--超链接-->
+        <li><a href="https://baike.baidu.com/item/%E5%9B%BD%E9%A3%8E%E5%A4%A7%E5%85%B8/63477900">国风大典</a></li>
+        <li><a href="https://baike.baidu.com/item/%E8%A5%BF%E5%A1%98%E6%B1%89%E6%9C%8D%E6%96%87%E5%8C%96%E5%91%A8/22429543">西塘汉服文化周</a></li>
+        <li><a href="https://hanfusong.com/archives/38653.html">国丝汉服节</a></li>
+    </ul>
+    <h4>汉服不仅是一件衣物，更是汉族身份与文化的重要象征。它承载了华夏的礼仪制度与哲学思想，其当代的复兴运动也体现了年轻一代对传统文化传承与民族认同的追寻。</h4>
+</body>
+</html>
