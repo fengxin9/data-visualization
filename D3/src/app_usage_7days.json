@@ -1,0 +1,2738 @@
+{
+  "data": [
+    {
+      "apps": [
+        {
+          "appName": "哔哩哔哩",
+          "hourlyUsage": {
+            "9": 847,
+            "12": 2119,
+            "13": 2467,
+            "21": 2322,
+            "22": 2334
+          },
+          "packageName": "tv.danmaku.bili",
+          "totalTimeSeconds": 10090
+        },
+        {
+          "appName": "com.netease.skzdhlr",
+          "hourlyUsage": {
+            "7": 714,
+            "22": 381,
+            "23": 3599
+          },
+          "packageName": "com.netease.skzdhlr",
+          "totalTimeSeconds": 4695
+        },
+        {
+          "appName": "小红书",
+          "hourlyUsage": {
+            "0": 83,
+            "7": 99,
+            "8": 858,
+            "9": 1306,
+            "10": 41,
+            "11": 59,
+            "13": 495,
+            "14": 262,
+            "15": 97,
+            "16": 326,
+            "17": 36,
+            "19": 636,
+            "22": 333
+          },
+          "packageName": "com.xingin.xhs",
+          "totalTimeSeconds": 4631
+        },
+        {
+          "appName": "com.huawei.notepad",
+          "hourlyUsage": {
+            "0": 21,
+            "10": 3250,
+            "11": 777,
+            "12": 12,
+            "13": 12,
+            "16": 17,
+            "19": 9,
+            "20": 4,
+            "21": 4,
+            "22": 27
+          },
+          "packageName": "com.huawei.notepad",
+          "totalTimeSeconds": 4133
+        },
+        {
+          "appName": "微信",
+          "hourlyUsage": {
+            "0": 3,
+            "7": 38,
+            "8": 1,
+            "11": 302,
+            "12": 93,
+            "13": 90,
+            "14": 60,
+            "15": 83,
+            "16": 423,
+            "17": 216,
+            "18": 196,
+            "19": 467,
+            "20": 808,
+            "21": 69,
+            "22": 12
+          },
+          "packageName": "com.tencent.mm",
+          "totalTimeSeconds": 2863
+        },
+        {
+          "appName": "淘宝",
+          "hourlyUsage": {
+            "0": 666,
+            "8": 1085,
+            "9": 528,
+            "11": 5,
+            "12": 53,
+            "18": 30,
+            "19": 171,
+            "22": 59
+          },
+          "packageName": "com.taobao.taobao",
+          "totalTimeSeconds": 2597
+        },
+        {
+          "appName": "知乎",
+          "hourlyUsage": {
+            "8": 1027,
+            "9": 301,
+            "16": 294
+          },
+          "packageName": "com.zhihu.android",
+          "totalTimeSeconds": 1623
+        },
+        {
+          "appName": "com.miHoYo.wd",
+          "hourlyUsage": {
+            "7": 853,
+            "21": 115
+          },
+          "packageName": "com.miHoYo.wd",
+          "totalTimeSeconds": 968
+        },
+        {
+          "appName": "com.huawei.photos",
+          "hourlyUsage": {
+            "7": 9,
+            "9": 18,
+            "15": 201,
+            "16": 142,
+            "17": 136,
+            "18": 11
+          },
+          "packageName": "com.huawei.photos",
+          "totalTimeSeconds": 517
+        },
+        {
+          "appName": "菜鸟",
+          "hourlyUsage": {
+            "7": 34,
+            "10": 12,
+            "11": 207,
+            "15": 35,
+            "17": 11,
+            "18": 149
+          },
+          "packageName": "com.cainiao.wireless",
+          "totalTimeSeconds": 448
+        },
+        {
+          "appName": "com.huawei.camera",
+          "hourlyUsage": {
+            "15": 257,
+            "16": 115,
+            "17": 73
+          },
+          "packageName": "com.huawei.camera",
+          "totalTimeSeconds": 445
+        },
+        {
+          "appName": "com.yek.android.kfc.activitys",
+          "hourlyUsage": {
+            "11": 409,
+            "12": 33
+          },
+          "packageName": "com.yek.android.kfc.activitys",
+          "totalTimeSeconds": 442
+        },
+        {
+          "appName": "华为桌面",
+          "hourlyUsage": {
+            "0": 15,
+            "7": 49,
+            "8": 17,
+            "9": 54,
+            "10": 5,
+            "11": 32,
+            "12": 9,
+            "13": 35,
+            "14": 3,
+            "15": 25,
+            "16": 35,
+            "17": 18,
+            "18": 11,
+            "19": 15,
+            "20": 1,
+            "21": 5,
+            "22": 16
+          },
+          "packageName": "com.huawei.android.launcher",
+          "totalTimeSeconds": 345
+        },
+        {
+          "appName": "com.deepseek.chat",
+          "hourlyUsage": {
+            "11": 279
+          },
+          "packageName": "com.deepseek.chat",
+          "totalTimeSeconds": 279
+        },
+        {
+          "appName": "com.huawei.calendar",
+          "hourlyUsage": {
+            "7": 222,
+            "10": 12,
+            "16": 3
+          },
+          "packageName": "com.huawei.calendar",
+          "totalTimeSeconds": 237
+        },
+        {
+          "appName": "夸克浏览器",
+          "hourlyUsage": {
+            "10": 179,
+            "11": 16
+          },
+          "packageName": "com.quark.browser",
+          "totalTimeSeconds": 195
+        },
+        {
+          "appName": "QQ音乐",
+          "hourlyUsage": {
+            "0": 1,
+            "7": 20,
+            "9": 11,
+            "11": 21,
+            "12": 46,
+            "13": 24,
+            "14": 19,
+            "22": 9
+          },
+          "packageName": "com.tencent.qqmusic",
+          "totalTimeSeconds": 151
+        },
+        {
+          "appName": "com.midea.vm.washer",
+          "hourlyUsage": {
+            "19": 13,
+            "20": 98
+          },
+          "packageName": "com.midea.vm.washer",
+          "totalTimeSeconds": 111
+        },
+        {
+          "appName": "美团",
+          "hourlyUsage": {
+            "22": 68
+          },
+          "packageName": "com.sankuai.meituan",
+          "totalTimeSeconds": 68
+        },
+        {
+          "appName": "飞书",
+          "hourlyUsage": {
+            "15": 5,
+            "18": 45
+          },
+          "packageName": "com.ss.android.lark",
+          "totalTimeSeconds": 50
+        },
+        {
+          "appName": "com.qiekj.user",
+          "hourlyUsage": {
+            "12": 44
+          },
+          "packageName": "com.qiekj.user",
+          "totalTimeSeconds": 44
+        },
+        {
+          "appName": "支付宝",
+          "hourlyUsage": {
+            "0": 9,
+            "7": 7,
+            "11": 6,
+            "19": 17
+          },
+          "packageName": "com.eg.android.AlipayGphone",
+          "totalTimeSeconds": 39
+        },
+        {
+          "appName": "权限控制器",
+          "hourlyUsage": {
+            "8": 30
+          },
+          "packageName": "com.android.permissioncontroller",
+          "totalTimeSeconds": 30
+        },
+        {
+          "appName": "闲鱼",
+          "hourlyUsage": {
+            "11": 24
+          },
+          "packageName": "com.taobao.idlefish",
+          "totalTimeSeconds": 24
+        },
+        {
+          "appName": "抖音",
+          "hourlyUsage": {
+            "7": 16
+          },
+          "packageName": "com.ss.android.ugc.aweme",
+          "totalTimeSeconds": 16
+        },
+        {
+          "appName": "com.huawei.browser",
+          "hourlyUsage": {
+            "16": 16
+          },
+          "packageName": "com.huawei.browser",
+          "totalTimeSeconds": 16
+        },
+        {
+          "appName": "com.huawei.calculator",
+          "hourlyUsage": {
+            "12": 8
+          },
+          "packageName": "com.huawei.calculator",
+          "totalTimeSeconds": 8
+        },
+        {
+          "appName": "com.huawei.deskclock",
+          "hourlyUsage": {
+            "6": 3,
+            "7": 3
+          },
+          "packageName": "com.huawei.deskclock",
+          "totalTimeSeconds": 6
+        },
+        {
+          "appName": "com.huawei.android.totemweather",
+          "hourlyUsage": {
+            "7": 4
+          },
+          "packageName": "com.huawei.android.totemweather",
+          "totalTimeSeconds": 4
+        },
+        {
+          "appName": "System Share",
+          "hourlyUsage": {
+            "15": 1
+          },
+          "packageName": "com.huawei.android.internal.app",
+          "totalTimeSeconds": 1
+        }
+      ],
+      "date": "2025-10-23"
+    },
+    {
+      "apps": [
+        {
+          "appName": "小红书",
+          "hourlyUsage": {
+            "0": 107,
+            "7": 752,
+            "8": 1263,
+            "9": 575,
+            "10": 883,
+            "11": 102,
+            "13": 385,
+            "14": 342,
+            "15": 634,
+            "16": 444,
+            "17": 74,
+            "18": 301,
+            "19": 8,
+            "20": 21,
+            "22": 432,
+            "23": 318
+          },
+          "packageName": "com.xingin.xhs",
+          "totalTimeSeconds": 6643
+        },
+        {
+          "appName": "微信",
+          "hourlyUsage": {
+            "0": 1,
+            "6": 8,
+            "7": 29,
+            "10": 36,
+            "11": 47,
+            "13": 306,
+            "14": 70,
+            "16": 2114,
+            "17": 1944,
+            "18": 401,
+            "19": 297,
+            "20": 735,
+            "21": 256,
+            "22": 45,
+            "23": 128
+          },
+          "packageName": "com.tencent.mm",
+          "totalTimeSeconds": 6417
+        },
+        {
+          "appName": "淘宝",
+          "hourlyUsage": {
+            "8": 120,
+            "9": 70,
+            "10": 217,
+            "11": 15,
+            "12": 254,
+            "13": 372,
+            "14": 1340,
+            "15": 1361,
+            "16": 467,
+            "17": 167,
+            "18": 1314,
+            "23": 97
+          },
+          "packageName": "com.taobao.taobao",
+          "totalTimeSeconds": 5795
+        },
+        {
+          "appName": "com.huawei.photos",
+          "hourlyUsage": {
+            "7": 7,
+            "8": 968,
+            "9": 860,
+            "13": 75,
+            "15": 59,
+            "20": 46,
+            "21": 1396,
+            "22": 18,
+            "23": 43
+          },
+          "packageName": "com.huawei.photos",
+          "totalTimeSeconds": 3472
+        },
+        {
+          "appName": "知乎",
+          "hourlyUsage": {
+            "0": 528,
+            "8": 400,
+            "9": 129,
+            "10": 360,
+            "18": 752,
+            "19": 576
+          },
+          "packageName": "com.zhihu.android",
+          "totalTimeSeconds": 2747
+        },
+        {
+          "appName": "夸克浏览器",
+          "hourlyUsage": {
+            "16": 15,
+            "20": 197,
+            "21": 1515,
+            "22": 50,
+            "23": 729
+          },
+          "packageName": "com.quark.browser",
+          "totalTimeSeconds": 2507
+        },
+        {
+          "appName": "哔哩哔哩",
+          "hourlyUsage": {
+            "11": 1009,
+            "12": 682
+          },
+          "packageName": "tv.danmaku.bili",
+          "totalTimeSeconds": 1691
+        },
+        {
+          "appName": "com.miHoYo.wd",
+          "hourlyUsage": {
+            "7": 886,
+            "22": 177
+          },
+          "packageName": "com.miHoYo.wd",
+          "totalTimeSeconds": 1063
+        },
+        {
+          "appName": "com.deepseek.chat",
+          "hourlyUsage": {
+            "13": 84,
+            "17": 313,
+            "20": 562
+          },
+          "packageName": "com.deepseek.chat",
+          "totalTimeSeconds": 959
+        },
+        {
+          "appName": "华为桌面",
+          "hourlyUsage": {
+            "0": 10,
+            "6": 8,
+            "7": 27,
+            "8": 115,
+            "9": 45,
+            "10": 6,
+            "11": 35,
+            "12": 19,
+            "13": 64,
+            "14": 28,
+            "15": 49,
+            "16": 25,
+            "17": 10,
+            "18": 23,
+            "19": 58,
+            "20": 12,
+            "21": 71,
+            "22": 35,
+            "23": 21
+          },
+          "packageName": "com.huawei.android.launcher",
+          "totalTimeSeconds": 661
+        },
+        {
+          "appName": "com.netease.skzdhlr",
+          "hourlyUsage": {
+            "7": 580
+          },
+          "packageName": "com.netease.skzdhlr",
+          "totalTimeSeconds": 580
+        },
+        {
+          "appName": "com.huawei.notepad",
+          "hourlyUsage": {
+            "7": 6,
+            "11": 1,
+            "12": 9,
+            "13": 480,
+            "16": 11,
+            "18": 11,
+            "23": 3
+          },
+          "packageName": "com.huawei.notepad",
+          "totalTimeSeconds": 521
+        },
+        {
+          "appName": "菜鸟",
+          "hourlyUsage": {
+            "8": 50,
+            "9": 92,
+            "11": 8,
+            "12": 130,
+            "13": 117,
+            "14": 1
+          },
+          "packageName": "com.cainiao.wireless",
+          "totalTimeSeconds": 398
+        },
+        {
+          "appName": "智慧识屏",
+          "hourlyUsage": {
+            "19": 376
+          },
+          "packageName": "com.huawei.hitouch",
+          "totalTimeSeconds": 376
+        },
+        {
+          "appName": "QQ音乐",
+          "hourlyUsage": {
+            "7": 34,
+            "9": 24,
+            "12": 21,
+            "13": 32,
+            "17": 19,
+            "18": 228,
+            "22": 1
+          },
+          "packageName": "com.tencent.qqmusic",
+          "totalTimeSeconds": 359
+        },
+        {
+          "appName": "飞书",
+          "hourlyUsage": {
+            "9": 157,
+            "15": 17,
+            "16": 62,
+            "17": 19,
+            "18": 15
+          },
+          "packageName": "com.ss.android.lark",
+          "totalTimeSeconds": 270
+        },
+        {
+          "appName": "com.ccnu.jx.xiaoya",
+          "hourlyUsage": {
+            "13": 212
+          },
+          "packageName": "com.ccnu.jx.xiaoya",
+          "totalTimeSeconds": 212
+        },
+        {
+          "appName": "com.midea.vm.washer",
+          "hourlyUsage": {
+            "22": 25,
+            "23": 82
+          },
+          "packageName": "com.midea.vm.washer",
+          "totalTimeSeconds": 107
+        },
+        {
+          "appName": "com.huawei.camera",
+          "hourlyUsage": {
+            "8": 30,
+            "9": 26,
+            "23": 47
+          },
+          "packageName": "com.huawei.camera",
+          "totalTimeSeconds": 103
+        },
+        {
+          "appName": "com.huawei.calculator",
+          "hourlyUsage": {
+            "21": 84
+          },
+          "packageName": "com.huawei.calculator",
+          "totalTimeSeconds": 84
+        },
+        {
+          "appName": "短信",
+          "hourlyUsage": {
+            "11": 6,
+            "12": 52,
+            "16": 3
+          },
+          "packageName": "com.android.mms",
+          "totalTimeSeconds": 61
+        },
+        {
+          "appName": "com.huawei.calendar",
+          "hourlyUsage": {
+            "7": 2,
+            "9": 13,
+            "11": 26,
+            "22": 7
+          },
+          "packageName": "com.huawei.calendar",
+          "totalTimeSeconds": 48
+        },
+        {
+          "appName": "com.zzw.october",
+          "hourlyUsage": {
+            "20": 48
+          },
+          "packageName": "com.zzw.october",
+          "totalTimeSeconds": 48
+        },
+        {
+          "appName": "中国移动",
+          "hourlyUsage": {
+            "16": 46
+          },
+          "packageName": "com.greenpoint.android.mc10086.activity",
+          "totalTimeSeconds": 46
+        },
+        {
+          "appName": "com.huawei.deskclock",
+          "hourlyUsage": {
+            "6": 3,
+            "10": 12,
+            "11": 24
+          },
+          "packageName": "com.huawei.deskclock",
+          "totalTimeSeconds": 39
+        },
+        {
+          "appName": "QQ",
+          "hourlyUsage": {
+            "16": 20,
+            "17": 7
+          },
+          "packageName": "com.tencent.mobileqq",
+          "totalTimeSeconds": 27
+        },
+        {
+          "appName": "文件",
+          "hourlyUsage": {
+            "13": 21,
+            "20": 1
+          },
+          "packageName": "com.android.documentsui",
+          "totalTimeSeconds": 22
+        },
+        {
+          "appName": "抖音",
+          "hourlyUsage": {
+            "6": 6,
+            "7": 11
+          },
+          "packageName": "com.ss.android.ugc.aweme",
+          "totalTimeSeconds": 17
+        },
+        {
+          "appName": "权限控制器",
+          "hourlyUsage": {
+            "8": 14,
+            "18": 1
+          },
+          "packageName": "com.android.permissioncontroller",
+          "totalTimeSeconds": 15
+        },
+        {
+          "appName": "com.bankcomm.Bankcomm",
+          "hourlyUsage": {
+            "22": 14
+          },
+          "packageName": "com.bankcomm.Bankcomm",
+          "totalTimeSeconds": 14
+        },
+        {
+          "appName": "com.huawei.android.totemweather",
+          "hourlyUsage": {
+            "7": 4,
+            "22": 2
+          },
+          "packageName": "com.huawei.android.totemweather",
+          "totalTimeSeconds": 6
+        },
+        {
+          "appName": "系统",
+          "hourlyUsage": {
+            "13": 2
+          },
+          "packageName": "android",
+          "totalTimeSeconds": 2
+        },
+        {
+          "appName": "云空间",
+          "hourlyUsage": {
+            "7": 1
+          },
+          "packageName": "com.huawei.hidisk",
+          "totalTimeSeconds": 1
+        },
+        {
+          "appName": "智慧搜索",
+          "hourlyUsage": {
+            "9": 1
+          },
+          "packageName": "com.huawei.search",
+          "totalTimeSeconds": 1
+        }
+      ],
+      "date": "2025-10-24"
+    },
+    {
+      "apps": [
+        {
+          "appName": "哔哩哔哩",
+          "hourlyUsage": {
+            "10": 1105,
+            "11": 3331,
+            "12": 2278,
+            "13": 1825,
+            "14": 216,
+            "18": 260,
+            "19": 1341,
+            "20": 1137,
+            "22": 981
+          },
+          "packageName": "tv.danmaku.bili",
+          "totalTimeSeconds": 12477
+        },
+        {
+          "appName": "淘宝",
+          "hourlyUsage": {
+            "0": 2258,
+            "9": 89,
+            "10": 610,
+            "11": 105,
+            "12": 39,
+            "17": 366,
+            "18": 17,
+            "19": 174,
+            "21": 35,
+            "22": 807,
+            "23": 1990
+          },
+          "packageName": "com.taobao.taobao",
+          "totalTimeSeconds": 6491
+        },
+        {
+          "appName": "小红书",
+          "hourlyUsage": {
+            "9": 1657,
+            "12": 177,
+            "13": 328,
+            "14": 300,
+            "17": 998,
+            "18": 658,
+            "19": 817,
+            "20": 331,
+            "21": 139,
+            "22": 472,
+            "23": 221
+          },
+          "packageName": "com.xingin.xhs",
+          "totalTimeSeconds": 6098
+        },
+        {
+          "appName": "夸克浏览器",
+          "hourlyUsage": {
+            "15": 2280,
+            "16": 73,
+            "20": 64,
+            "21": 1525,
+            "22": 220
+          },
+          "packageName": "com.quark.browser",
+          "totalTimeSeconds": 4164
+        },
+        {
+          "appName": "微信",
+          "hourlyUsage": {
+            "9": 222,
+            "10": 460,
+            "11": 80,
+            "12": 931,
+            "13": 10,
+            "14": 254,
+            "15": 10,
+            "16": 68,
+            "17": 88,
+            "18": 81,
+            "19": 213,
+            "20": 597,
+            "21": 102,
+            "22": 147,
+            "23": 41
+          },
+          "packageName": "com.tencent.mm",
+          "totalTimeSeconds": 3305
+        },
+        {
+          "appName": "智慧识屏",
+          "hourlyUsage": {
+            "14": 85,
+            "15": 1112,
+            "16": 386,
+            "21": 712,
+            "22": 636
+          },
+          "packageName": "com.huawei.hitouch",
+          "totalTimeSeconds": 2932
+        },
+        {
+          "appName": "net.crigh.cgsport",
+          "hourlyUsage": {
+            "16": 2300,
+            "17": 262
+          },
+          "packageName": "net.crigh.cgsport",
+          "totalTimeSeconds": 2562
+        },
+        {
+          "appName": "知乎",
+          "hourlyUsage": {
+            "13": 42,
+            "14": 862,
+            "20": 774
+          },
+          "packageName": "com.zhihu.android",
+          "totalTimeSeconds": 1678
+        },
+        {
+          "appName": "飞书",
+          "hourlyUsage": {
+            "13": 495,
+            "14": 507,
+            "16": 1,
+            "17": 29,
+            "20": 25
+          },
+          "packageName": "com.ss.android.lark",
+          "totalTimeSeconds": 1057
+        },
+        {
+          "appName": "com.miHoYo.wd",
+          "hourlyUsage": {
+            "9": 19,
+            "10": 745,
+            "20": 212
+          },
+          "packageName": "com.miHoYo.wd",
+          "totalTimeSeconds": 976
+        },
+        {
+          "appName": "QQ音乐",
+          "hourlyUsage": {
+            "13": 32,
+            "14": 37,
+            "15": 4,
+            "16": 28,
+            "17": 299,
+            "18": 14,
+            "19": 11,
+            "21": 45,
+            "22": 64,
+            "23": 20
+          },
+          "packageName": "com.tencent.qqmusic",
+          "totalTimeSeconds": 554
+        },
+        {
+          "appName": "闲鱼",
+          "hourlyUsage": {
+            "13": 20,
+            "18": 214,
+            "19": 1,
+            "21": 92,
+            "23": 202
+          },
+          "packageName": "com.taobao.idlefish",
+          "totalTimeSeconds": 529
+        },
+        {
+          "appName": "华为桌面",
+          "hourlyUsage": {
+            "0": 1,
+            "9": 60,
+            "10": 15,
+            "11": 3,
+            "12": 23,
+            "13": 37,
+            "14": 58,
+            "15": 11,
+            "16": 36,
+            "17": 11,
+            "18": 30,
+            "19": 30,
+            "20": 33,
+            "21": 114,
+            "22": 21,
+            "23": 15
+          },
+          "packageName": "com.huawei.android.launcher",
+          "totalTimeSeconds": 498
+        },
+        {
+          "appName": "菜鸟",
+          "hourlyUsage": {
+            "9": 40,
+            "14": 54,
+            "17": 120,
+            "21": 240,
+            "23": 7
+          },
+          "packageName": "com.cainiao.wireless",
+          "totalTimeSeconds": 461
+        },
+        {
+          "appName": "com.netease.skzdhlr",
+          "hourlyUsage": {
+            "10": 430
+          },
+          "packageName": "com.netease.skzdhlr",
+          "totalTimeSeconds": 430
+        },
+        {
+          "appName": "QQ",
+          "hourlyUsage": {
+            "22": 27,
+            "23": 313
+          },
+          "packageName": "com.tencent.mobileqq",
+          "totalTimeSeconds": 340
+        },
+        {
+          "appName": "com.huawei.calendar",
+          "hourlyUsage": {
+            "10": 78,
+            "11": 29,
+            "12": 9,
+            "14": 24,
+            "19": 22,
+            "20": 46,
+            "22": 4,
+            "23": 17
+          },
+          "packageName": "com.huawei.calendar",
+          "totalTimeSeconds": 229
+        },
+        {
+          "appName": "com.huawei.notepad",
+          "hourlyUsage": {
+            "9": 8,
+            "10": 68,
+            "12": 3,
+            "19": 12,
+            "21": 4,
+            "22": 3,
+            "23": 5
+          },
+          "packageName": "com.huawei.notepad",
+          "totalTimeSeconds": 103
+        },
+        {
+          "appName": "高德地图",
+          "hourlyUsage": {
+            "13": 68,
+            "14": 34
+          },
+          "packageName": "com.autonavi.minimap",
+          "totalTimeSeconds": 102
+        },
+        {
+          "appName": "com.huawei.camera",
+          "hourlyUsage": {
+            "13": 45,
+            "14": 37,
+            "16": 4
+          },
+          "packageName": "com.huawei.camera",
+          "totalTimeSeconds": 87
+        },
+        {
+          "appName": "权限控制器",
+          "hourlyUsage": {
+            "14": 1,
+            "17": 27
+          },
+          "packageName": "com.android.permissioncontroller",
+          "totalTimeSeconds": 28
+        },
+        {
+          "appName": "com.midea.vm.washer",
+          "hourlyUsage": {
+            "18": 27
+          },
+          "packageName": "com.midea.vm.washer",
+          "totalTimeSeconds": 27
+        },
+        {
+          "appName": "com.huawei.photos",
+          "hourlyUsage": {
+            "14": 19,
+            "19": 4
+          },
+          "packageName": "com.huawei.photos",
+          "totalTimeSeconds": 23
+        },
+        {
+          "appName": "com.sangfor.vpn.client.phone",
+          "hourlyUsage": {
+            "16": 16
+          },
+          "packageName": "com.sangfor.vpn.client.phone",
+          "totalTimeSeconds": 16
+        },
+        {
+          "appName": "com.bankcomm.Bankcomm",
+          "hourlyUsage": {
+            "18": 15
+          },
+          "packageName": "com.bankcomm.Bankcomm",
+          "totalTimeSeconds": 15
+        },
+        {
+          "appName": "微博",
+          "hourlyUsage": {
+            "9": 13
+          },
+          "packageName": "com.sina.weibo",
+          "totalTimeSeconds": 13
+        },
+        {
+          "appName": "com.ccnu.jx.xiaoya",
+          "hourlyUsage": {
+            "10": 13
+          },
+          "packageName": "com.ccnu.jx.xiaoya",
+          "totalTimeSeconds": 13
+        },
+        {
+          "appName": "抖音",
+          "hourlyUsage": {
+            "9": 8
+          },
+          "packageName": "com.ss.android.ugc.aweme",
+          "totalTimeSeconds": 8
+        },
+        {
+          "appName": "com.huawei.calculator",
+          "hourlyUsage": {
+            "11": 8
+          },
+          "packageName": "com.huawei.calculator",
+          "totalTimeSeconds": 8
+        },
+        {
+          "appName": "com.huawei.android.totemweather",
+          "hourlyUsage": {
+            "13": 7
+          },
+          "packageName": "com.huawei.android.totemweather",
+          "totalTimeSeconds": 7
+        },
+        {
+          "appName": "通话界面",
+          "hourlyUsage": {
+            "18": 2
+          },
+          "packageName": "com.android.incallui",
+          "totalTimeSeconds": 2
+        }
+      ],
+      "date": "2025-10-25"
+    },
+    {
+      "apps": [
+        {
+          "appName": "哔哩哔哩",
+          "hourlyUsage": {
+            "12": 543,
+            "13": 2200,
+            "17": 195,
+            "20": 2138,
+            "21": 13
+          },
+          "packageName": "tv.danmaku.bili",
+          "totalTimeSeconds": 5090
+        },
+        {
+          "appName": "小红书",
+          "hourlyUsage": {
+            "9": 119,
+            "10": 379,
+            "13": 537,
+            "14": 291,
+            "15": 237,
+            "19": 473,
+            "20": 35,
+            "21": 1719,
+            "22": 834,
+            "23": 435
+          },
+          "packageName": "com.xingin.xhs",
+          "totalTimeSeconds": 5059
+        },
+        {
+          "appName": "微信",
+          "hourlyUsage": {
+            "0": 18,
+            "10": 7,
+            "11": 1083,
+            "12": 645,
+            "13": 31,
+            "14": 49,
+            "15": 800,
+            "16": 479,
+            "17": 384,
+            "18": 421,
+            "19": 790,
+            "20": 89,
+            "21": 4,
+            "22": 44
+          },
+          "packageName": "com.tencent.mm",
+          "totalTimeSeconds": 4847
+        },
+        {
+          "appName": "淘宝",
+          "hourlyUsage": {
+            "0": 1755,
+            "10": 535,
+            "11": 17,
+            "14": 130,
+            "15": 120,
+            "17": 342,
+            "18": 24,
+            "21": 948,
+            "22": 478,
+            "23": 401
+          },
+          "packageName": "com.taobao.taobao",
+          "totalTimeSeconds": 4750
+        },
+        {
+          "appName": "知乎",
+          "hourlyUsage": {
+            "21": 2,
+            "22": 1575,
+            "23": 2211
+          },
+          "packageName": "com.zhihu.android",
+          "totalTimeSeconds": 3788
+        },
+        {
+          "appName": "net.crigh.cgsport",
+          "hourlyUsage": {
+            "17": 162,
+            "18": 2140
+          },
+          "packageName": "net.crigh.cgsport",
+          "totalTimeSeconds": 2302
+        },
+        {
+          "appName": "com.miHoYo.wd",
+          "hourlyUsage": {
+            "10": 75,
+            "11": 1783,
+            "21": 98
+          },
+          "packageName": "com.miHoYo.wd",
+          "totalTimeSeconds": 1957
+        },
+        {
+          "appName": "QQ音乐",
+          "hourlyUsage": {
+            "9": 21,
+            "11": 20,
+            "12": 1,
+            "14": 346,
+            "16": 108,
+            "17": 463,
+            "18": 112,
+            "20": 73,
+            "21": 1,
+            "22": 2
+          },
+          "packageName": "com.tencent.qqmusic",
+          "totalTimeSeconds": 1147
+        },
+        {
+          "appName": "飞书",
+          "hourlyUsage": {
+            "13": 359,
+            "14": 356,
+            "15": 59,
+            "17": 69
+          },
+          "packageName": "com.ss.android.lark",
+          "totalTimeSeconds": 843
+        },
+        {
+          "appName": "华为桌面",
+          "hourlyUsage": {
+            "0": 3,
+            "9": 32,
+            "10": 16,
+            "11": 158,
+            "12": 3,
+            "13": 8,
+            "14": 54,
+            "15": 27,
+            "16": 10,
+            "17": 49,
+            "18": 57,
+            "19": 31,
+            "20": 61,
+            "21": 23,
+            "22": 9,
+            "23": 7
+          },
+          "packageName": "com.huawei.android.launcher",
+          "totalTimeSeconds": 548
+        },
+        {
+          "appName": "抖音",
+          "hourlyUsage": {
+            "9": 5,
+            "21": 385,
+            "22": 65
+          },
+          "packageName": "com.ss.android.ugc.aweme",
+          "totalTimeSeconds": 455
+        },
+        {
+          "appName": "com.huawei.photos",
+          "hourlyUsage": {
+            "12": 31,
+            "18": 4,
+            "19": 165,
+            "20": 195,
+            "23": 38
+          },
+          "packageName": "com.huawei.photos",
+          "totalTimeSeconds": 433
+        },
+        {
+          "appName": "com.netease.skzdhlr",
+          "hourlyUsage": {
+            "11": 291
+          },
+          "packageName": "com.netease.skzdhlr",
+          "totalTimeSeconds": 291
+        },
+        {
+          "appName": "美团",
+          "hourlyUsage": {
+            "14": 58,
+            "15": 128
+          },
+          "packageName": "com.sankuai.meituan",
+          "totalTimeSeconds": 186
+        },
+        {
+          "appName": "com.huawei.notepad",
+          "hourlyUsage": {
+            "10": 13,
+            "11": 3,
+            "13": 35,
+            "14": 13,
+            "17": 7,
+            "19": 61,
+            "20": 24,
+            "21": 6,
+            "23": 4
+          },
+          "packageName": "com.huawei.notepad",
+          "totalTimeSeconds": 167
+        },
+        {
+          "appName": "com.deepseek.chat",
+          "hourlyUsage": {
+            "13": 150
+          },
+          "packageName": "com.deepseek.chat",
+          "totalTimeSeconds": 150
+        },
+        {
+          "appName": "夸克浏览器",
+          "hourlyUsage": {
+            "11": 4,
+            "13": 64,
+            "14": 45,
+            "17": 30
+          },
+          "packageName": "com.quark.browser",
+          "totalTimeSeconds": 143
+        },
+        {
+          "appName": "菜鸟",
+          "hourlyUsage": {
+            "10": 27,
+            "11": 87
+          },
+          "packageName": "com.cainiao.wireless",
+          "totalTimeSeconds": 114
+        },
+        {
+          "appName": "com.huawei.calendar",
+          "hourlyUsage": {
+            "10": 7,
+            "18": 88,
+            "20": 7
+          },
+          "packageName": "com.huawei.calendar",
+          "totalTimeSeconds": 102
+        },
+        {
+          "appName": "天津地铁",
+          "hourlyUsage": {
+            "14": 32,
+            "17": 58
+          },
+          "packageName": "com.bwton.tjmetro",
+          "totalTimeSeconds": 90
+        },
+        {
+          "appName": "com.tan8",
+          "hourlyUsage": {
+            "17": 46,
+            "20": 38
+          },
+          "packageName": "com.tan8",
+          "totalTimeSeconds": 84
+        },
+        {
+          "appName": "短信",
+          "hourlyUsage": {
+            "11": 77
+          },
+          "packageName": "com.android.mms",
+          "totalTimeSeconds": 77
+        },
+        {
+          "appName": "com.midea.vm.washer",
+          "hourlyUsage": {
+            "19": 24,
+            "20": 30
+          },
+          "packageName": "com.midea.vm.washer",
+          "totalTimeSeconds": 54
+        },
+        {
+          "appName": "主题",
+          "hourlyUsage": {
+            "19": 18,
+            "23": 33
+          },
+          "packageName": "com.huawei.android.thememanager",
+          "totalTimeSeconds": 51
+        },
+        {
+          "appName": "闲鱼",
+          "hourlyUsage": {
+            "0": 3,
+            "10": 33
+          },
+          "packageName": "com.taobao.idlefish",
+          "totalTimeSeconds": 36
+        },
+        {
+          "appName": "com.huawei.camera",
+          "hourlyUsage": {
+            "18": 3,
+            "22": 19
+          },
+          "packageName": "com.huawei.camera",
+          "totalTimeSeconds": 22
+        },
+        {
+          "appName": "QQ",
+          "hourlyUsage": {
+            "12": 17,
+            "13": 2
+          },
+          "packageName": "com.tencent.mobileqq",
+          "totalTimeSeconds": 19
+        },
+        {
+          "appName": "支付宝",
+          "hourlyUsage": {
+            "0": 10,
+            "10": 5
+          },
+          "packageName": "com.eg.android.AlipayGphone",
+          "totalTimeSeconds": 15
+        },
+        {
+          "appName": "设置",
+          "hourlyUsage": {
+            "14": 15
+          },
+          "packageName": "com.android.settings",
+          "totalTimeSeconds": 15
+        },
+        {
+          "appName": "com.bankcomm.Bankcomm",
+          "hourlyUsage": {
+            "19": 15
+          },
+          "packageName": "com.bankcomm.Bankcomm",
+          "totalTimeSeconds": 15
+        },
+        {
+          "appName": "com.sangfor.vpn.client.phone",
+          "hourlyUsage": {
+            "17": 9
+          },
+          "packageName": "com.sangfor.vpn.client.phone",
+          "totalTimeSeconds": 9
+        },
+        {
+          "appName": "智慧识屏",
+          "hourlyUsage": {
+            "19": 8
+          },
+          "packageName": "com.huawei.hitouch",
+          "totalTimeSeconds": 8
+        },
+        {
+          "appName": "com.yusi.chongchong",
+          "hourlyUsage": {
+            "17": 6
+          },
+          "packageName": "com.yusi.chongchong",
+          "totalTimeSeconds": 6
+        },
+        {
+          "appName": "com.koudai.weidian.buyer",
+          "hourlyUsage": {
+            "12": 5
+          },
+          "packageName": "com.koudai.weidian.buyer",
+          "totalTimeSeconds": 5
+        },
+        {
+          "appName": "com.huawei.HwMultiScreenShot",
+          "hourlyUsage": {
+            "19": 5
+          },
+          "packageName": "com.huawei.HwMultiScreenShot",
+          "totalTimeSeconds": 5
+        },
+        {
+          "appName": "文件",
+          "hourlyUsage": {
+            "19": 4
+          },
+          "packageName": "com.android.documentsui",
+          "totalTimeSeconds": 4
+        },
+        {
+          "appName": "System Share",
+          "hourlyUsage": {
+            "19": 2,
+            "23": 1
+          },
+          "packageName": "com.huawei.android.internal.app",
+          "totalTimeSeconds": 3
+        },
+        {
+          "appName": "软件更新",
+          "hourlyUsage": {
+            "9": 2
+          },
+          "packageName": "com.huawei.android.hwouc",
+          "totalTimeSeconds": 2
+        },
+        {
+          "appName": "智慧多窗",
+          "hourlyUsage": {
+            "10": 1,
+            "22": 1
+          },
+          "packageName": "com.huawei.hwdockbar",
+          "totalTimeSeconds": 2
+        },
+        {
+          "appName": "com.huawei.mediacontroller",
+          "hourlyUsage": {
+            "16": 2
+          },
+          "packageName": "com.huawei.mediacontroller",
+          "totalTimeSeconds": 2
+        }
+      ],
+      "date": "2025-10-26"
+    },
+    {
+      "apps": [
+        {
+          "appName": "哔哩哔哩",
+          "hourlyUsage": {
+            "10": 818,
+            "11": 1621,
+            "12": 3286,
+            "13": 1351,
+            "21": 89,
+            "22": 812
+          },
+          "packageName": "tv.danmaku.bili",
+          "totalTimeSeconds": 7979
+        },
+        {
+          "appName": "小红书",
+          "hourlyUsage": {
+            "0": 108,
+            "9": 1217,
+            "10": 1166,
+            "11": 803,
+            "13": 798,
+            "18": 25,
+            "19": 135,
+            "20": 279,
+            "21": 235,
+            "22": 223,
+            "23": 9
+          },
+          "packageName": "com.xingin.xhs",
+          "totalTimeSeconds": 4998
+        },
+        {
+          "appName": "知乎",
+          "hourlyUsage": {
+            "0": 774,
+            "10": 243,
+            "14": 591,
+            "15": 472,
+            "18": 1276,
+            "19": 501,
+            "23": 451
+          },
+          "packageName": "com.zhihu.android",
+          "totalTimeSeconds": 4309
+        },
+        {
+          "appName": "淘宝",
+          "hourlyUsage": {
+            "10": 279,
+            "11": 10,
+            "15": 603,
+            "16": 252,
+            "17": 264,
+            "19": 1278,
+            "20": 191,
+            "23": 161
+          },
+          "packageName": "com.taobao.taobao",
+          "totalTimeSeconds": 3039
+        },
+        {
+          "appName": "微信",
+          "hourlyUsage": {
+            "0": 341,
+            "9": 25,
+            "10": 202,
+            "11": 73,
+            "12": 221,
+            "13": 4,
+            "14": 577,
+            "15": 61,
+            "16": 29,
+            "17": 820,
+            "18": 67,
+            "20": 48,
+            "21": 305,
+            "22": 118,
+            "23": 41
+          },
+          "packageName": "com.tencent.mm",
+          "totalTimeSeconds": 2932
+        },
+        {
+          "appName": "net.crigh.cgsport",
+          "hourlyUsage": {
+            "16": 1114,
+            "17": 1217
+          },
+          "packageName": "net.crigh.cgsport",
+          "totalTimeSeconds": 2332
+        },
+        {
+          "appName": "com.huawei.photos",
+          "hourlyUsage": {
+            "15": 63,
+            "18": 1041,
+            "19": 969,
+            "20": 113,
+            "21": 38
+          },
+          "packageName": "com.huawei.photos",
+          "totalTimeSeconds": 2224
+        },
+        {
+          "appName": "com.ccnu.jx.xiaoya",
+          "hourlyUsage": {
+            "20": 914,
+            "21": 147
+          },
+          "packageName": "com.ccnu.jx.xiaoya",
+          "totalTimeSeconds": 1061
+        },
+        {
+          "appName": "com.miHoYo.wd",
+          "hourlyUsage": {
+            "10": 14,
+            "11": 657,
+            "21": 115
+          },
+          "packageName": "com.miHoYo.wd",
+          "totalTimeSeconds": 786
+        },
+        {
+          "appName": "华为桌面",
+          "hourlyUsage": {
+            "0": 7,
+            "9": 36,
+            "10": 39,
+            "11": 25,
+            "12": 2,
+            "13": 5,
+            "14": 5,
+            "15": 36,
+            "16": 23,
+            "17": 70,
+            "18": 67,
+            "19": 181,
+            "20": 29,
+            "21": 33,
+            "22": 9,
+            "23": 10
+          },
+          "packageName": "com.huawei.android.launcher",
+          "totalTimeSeconds": 577
+        },
+        {
+          "appName": "com.huawei.calculator",
+          "hourlyUsage": {
+            "19": 108,
+            "20": 463
+          },
+          "packageName": "com.huawei.calculator",
+          "totalTimeSeconds": 571
+        },
+        {
+          "appName": "QQ音乐",
+          "hourlyUsage": {
+            "11": 80,
+            "13": 127,
+            "15": 84,
+            "16": 52,
+            "17": 9,
+            "18": 20,
+            "21": 36,
+            "23": 38
+          },
+          "packageName": "com.tencent.qqmusic",
+          "totalTimeSeconds": 446
+        },
+        {
+          "appName": "com.midea.vm.washer",
+          "hourlyUsage": {
+            "22": 21,
+            "23": 331
+          },
+          "packageName": "com.midea.vm.washer",
+          "totalTimeSeconds": 352
+        },
+        {
+          "appName": "夸克浏览器",
+          "hourlyUsage": {
+            "20": 56,
+            "21": 215
+          },
+          "packageName": "com.quark.browser",
+          "totalTimeSeconds": 271
+        },
+        {
+          "appName": "com.huawei.notepad",
+          "hourlyUsage": {
+            "10": 55,
+            "11": 8,
+            "14": 39,
+            "16": 18,
+            "17": 36,
+            "18": 3,
+            "20": 83,
+            "21": 2,
+            "22": 5,
+            "23": 17
+          },
+          "packageName": "com.huawei.notepad",
+          "totalTimeSeconds": 266
+        },
+        {
+          "appName": "com.netease.skzdhlr",
+          "hourlyUsage": {
+            "10": 242
+          },
+          "packageName": "com.netease.skzdhlr",
+          "totalTimeSeconds": 242
+        },
+        {
+          "appName": "com.deepseek.chat",
+          "hourlyUsage": {
+            "14": 161,
+            "20": 79
+          },
+          "packageName": "com.deepseek.chat",
+          "totalTimeSeconds": 240
+        },
+        {
+          "appName": "飞书",
+          "hourlyUsage": {
+            "9": 64,
+            "10": 89,
+            "11": 58,
+            "14": 9
+          },
+          "packageName": "com.ss.android.lark",
+          "totalTimeSeconds": 220
+        },
+        {
+          "appName": "com.huawei.calendar",
+          "hourlyUsage": {
+            "10": 23,
+            "12": 18,
+            "17": 46,
+            "18": 81,
+            "21": 5,
+            "23": 39
+          },
+          "packageName": "com.huawei.calendar",
+          "totalTimeSeconds": 213
+        },
+        {
+          "appName": "闲鱼",
+          "hourlyUsage": {
+            "19": 146
+          },
+          "packageName": "com.taobao.idlefish",
+          "totalTimeSeconds": 146
+        },
+        {
+          "appName": "com.huawei.camera",
+          "hourlyUsage": {
+            "17": 4,
+            "18": 46,
+            "19": 51,
+            "20": 12
+          },
+          "packageName": "com.huawei.camera",
+          "totalTimeSeconds": 113
+        },
+        {
+          "appName": "com.tencent.androidqqmail",
+          "hourlyUsage": {
+            "13": 63,
+            "18": 23
+          },
+          "packageName": "com.tencent.androidqqmail",
+          "totalTimeSeconds": 86
+        },
+        {
+          "appName": "菜鸟",
+          "hourlyUsage": {
+            "12": 11,
+            "15": 37,
+            "16": 8
+          },
+          "packageName": "com.cainiao.wireless",
+          "totalTimeSeconds": 56
+        },
+        {
+          "appName": "支付宝",
+          "hourlyUsage": {
+            "10": 8,
+            "17": 44
+          },
+          "packageName": "com.eg.android.AlipayGphone",
+          "totalTimeSeconds": 52
+        },
+        {
+          "appName": "微博",
+          "hourlyUsage": {
+            "9": 43
+          },
+          "packageName": "com.sina.weibo",
+          "totalTimeSeconds": 43
+        },
+        {
+          "appName": "主题",
+          "hourlyUsage": {
+            "15": 22
+          },
+          "packageName": "com.huawei.android.thememanager",
+          "totalTimeSeconds": 22
+        },
+        {
+          "appName": "com.huawei.android.totemweather",
+          "hourlyUsage": {
+            "20": 14
+          },
+          "packageName": "com.huawei.android.totemweather",
+          "totalTimeSeconds": 14
+        },
+        {
+          "appName": "文件",
+          "hourlyUsage": {
+            "21": 11
+          },
+          "packageName": "com.android.documentsui",
+          "totalTimeSeconds": 11
+        },
+        {
+          "appName": "com.bankcomm.Bankcomm",
+          "hourlyUsage": {
+            "22": 11
+          },
+          "packageName": "com.bankcomm.Bankcomm",
+          "totalTimeSeconds": 11
+        },
+        {
+          "appName": "com.huawei.deskclock",
+          "hourlyUsage": {
+            "8": 4,
+            "23": 3
+          },
+          "packageName": "com.huawei.deskclock",
+          "totalTimeSeconds": 7
+        },
+        {
+          "appName": "com.sangfor.vpn.client.phone",
+          "hourlyUsage": {
+            "16": 6
+          },
+          "packageName": "com.sangfor.vpn.client.phone",
+          "totalTimeSeconds": 6
+        },
+        {
+          "appName": "系统",
+          "hourlyUsage": {
+            "21": 5
+          },
+          "packageName": "android",
+          "totalTimeSeconds": 5
+        },
+        {
+          "appName": "com.huawei.HwMultiScreenShot",
+          "hourlyUsage": {
+            "20": 4
+          },
+          "packageName": "com.huawei.HwMultiScreenShot",
+          "totalTimeSeconds": 4
+        },
+        {
+          "appName": "软件更新",
+          "hourlyUsage": {
+            "9": 3
+          },
+          "packageName": "com.huawei.android.hwouc",
+          "totalTimeSeconds": 3
+        },
+        {
+          "appName": "智慧识屏",
+          "hourlyUsage": {
+            "19": 3
+          },
+          "packageName": "com.huawei.hitouch",
+          "totalTimeSeconds": 3
+        },
+        {
+          "appName": "抖音",
+          "hourlyUsage": {
+            "9": 2
+          },
+          "packageName": "com.ss.android.ugc.aweme",
+          "totalTimeSeconds": 2
+        },
+        {
+          "appName": "权限控制器",
+          "hourlyUsage": {
+            "23": 1
+          },
+          "packageName": "com.android.permissioncontroller",
+          "totalTimeSeconds": 1
+        },
+        {
+          "appName": "System Share",
+          "hourlyUsage": {
+            "15": 1
+          },
+          "packageName": "com.huawei.android.internal.app",
+          "totalTimeSeconds": 1
+        }
+      ],
+      "date": "2025-10-27"
+    },
+    {
+      "apps": [
+        {
+          "appName": "淘宝",
+          "hourlyUsage": {
+            "9": 113,
+            "10": 1454,
+            "11": 378,
+            "12": 810,
+            "13": 1656,
+            "14": 1549,
+            "15": 424,
+            "18": 65,
+            "21": 293,
+            "22": 840
+          },
+          "packageName": "com.taobao.taobao",
+          "totalTimeSeconds": 7583
+        },
+        {
+          "appName": "小红书",
+          "hourlyUsage": {
+            "9": 577,
+            "12": 319,
+            "13": 573,
+            "14": 960,
+            "15": 125,
+            "16": 302,
+            "18": 551,
+            "19": 169,
+            "20": 143,
+            "22": 781
+          },
+          "packageName": "com.xingin.xhs",
+          "totalTimeSeconds": 4501
+        },
+        {
+          "appName": "知乎",
+          "hourlyUsage": {
+            "0": 638,
+            "12": 1140,
+            "15": 1057,
+            "16": 285,
+            "19": 64,
+            "20": 292,
+            "21": 1
+          },
+          "packageName": "com.zhihu.android",
+          "totalTimeSeconds": 3477
+        },
+        {
+          "appName": "com.ccnu.jx.xiaoya",
+          "hourlyUsage": {
+            "12": 115,
+            "13": 774,
+            "14": 669,
+            "15": 436,
+            "18": 220,
+            "19": 45,
+            "20": 397
+          },
+          "packageName": "com.ccnu.jx.xiaoya",
+          "totalTimeSeconds": 2656
+        },
+        {
+          "appName": "net.crigh.cgsport",
+          "hourlyUsage": {
+            "16": 1660,
+            "17": 546
+          },
+          "packageName": "net.crigh.cgsport",
+          "totalTimeSeconds": 2206
+        },
+        {
+          "appName": "微信",
+          "hourlyUsage": {
+            "8": 20,
+            "9": 538,
+            "10": 45,
+            "11": 113,
+            "12": 24,
+            "14": 19,
+            "15": 43,
+            "16": 234,
+            "17": 60,
+            "18": 486,
+            "19": 29,
+            "21": 59,
+            "22": 4
+          },
+          "packageName": "com.tencent.mm",
+          "totalTimeSeconds": 1674
+        },
+        {
+          "appName": "com.huawei.photos",
+          "hourlyUsage": {
+            "9": 234,
+            "10": 719,
+            "11": 419,
+            "12": 7,
+            "18": 24,
+            "21": 2
+          },
+          "packageName": "com.huawei.photos",
+          "totalTimeSeconds": 1405
+        },
+        {
+          "appName": "哔哩哔哩",
+          "hourlyUsage": {
+            "17": 1320,
+            "18": 23
+          },
+          "packageName": "tv.danmaku.bili",
+          "totalTimeSeconds": 1344
+        },
+        {
+          "appName": "华为桌面",
+          "hourlyUsage": {
+            "0": 2,
+            "8": 23,
+            "9": 67,
+            "10": 42,
+            "11": 160,
+            "12": 18,
+            "13": 28,
+            "14": 101,
+            "15": 64,
+            "16": 24,
+            "17": 24,
+            "18": 44,
+            "19": 4,
+            "20": 23,
+            "21": 33,
+            "22": 36
+          },
+          "packageName": "com.huawei.android.launcher",
+          "totalTimeSeconds": 693
+        },
+        {
+          "appName": "com.miHoYo.wd",
+          "hourlyUsage": {
+            "9": 173,
+            "21": 499
+          },
+          "packageName": "com.miHoYo.wd",
+          "totalTimeSeconds": 672
+        },
+        {
+          "appName": "闲鱼",
+          "hourlyUsage": {
+            "10": 40,
+            "12": 161,
+            "13": 209,
+            "14": 5,
+            "15": 218,
+            "22": 11
+          },
+          "packageName": "com.taobao.idlefish",
+          "totalTimeSeconds": 644
+        },
+        {
+          "appName": "com.deepseek.chat",
+          "hourlyUsage": {
+            "10": 198,
+            "11": 34,
+            "12": 1,
+            "22": 358
+          },
+          "packageName": "com.deepseek.chat",
+          "totalTimeSeconds": 591
+        },
+        {
+          "appName": "飞书",
+          "hourlyUsage": {
+            "11": 258,
+            "15": 38,
+            "18": 25,
+            "19": 8,
+            "20": 16
+          },
+          "packageName": "com.ss.android.lark",
+          "totalTimeSeconds": 345
+        },
+        {
+          "appName": "QQ音乐",
+          "hourlyUsage": {
+            "9": 65,
+            "11": 15,
+            "12": 12,
+            "16": 13,
+            "17": 37,
+            "18": 49,
+            "19": 121,
+            "20": 9,
+            "21": 2
+          },
+          "packageName": "com.tencent.qqmusic",
+          "totalTimeSeconds": 323
+        },
+        {
+          "appName": "com.huawei.camera",
+          "hourlyUsage": {
+            "8": 78,
+            "9": 100,
+            "10": 33,
+            "11": 21,
+            "16": 4,
+            "21": 3
+          },
+          "packageName": "com.huawei.camera",
+          "totalTimeSeconds": 239
+        },
+        {
+          "appName": "QQ浏览器",
+          "hourlyUsage": {
+            "11": 237
+          },
+          "packageName": "com.tencent.mtt",
+          "totalTimeSeconds": 237
+        },
+        {
+          "appName": "夸克浏览器",
+          "hourlyUsage": {
+            "10": 35,
+            "12": 42,
+            "13": 27,
+            "15": 52,
+            "20": 67
+          },
+          "packageName": "com.quark.browser",
+          "totalTimeSeconds": 224
+        },
+        {
+          "appName": "com.qiekj.user",
+          "hourlyUsage": {
+            "11": 42,
+            "16": 46,
+            "21": 67
+          },
+          "packageName": "com.qiekj.user",
+          "totalTimeSeconds": 155
+        },
+        {
+          "appName": "com.netease.skzdhlr",
+          "hourlyUsage": {
+            "9": 134
+          },
+          "packageName": "com.netease.skzdhlr",
+          "totalTimeSeconds": 134
+        },
+        {
+          "appName": "菜鸟",
+          "hourlyUsage": {
+            "8": 7,
+            "11": 5,
+            "16": 7,
+            "17": 53,
+            "21": 49
+          },
+          "packageName": "com.cainiao.wireless",
+          "totalTimeSeconds": 121
+        },
+        {
+          "appName": "com.huawei.calendar",
+          "hourlyUsage": {
+            "18": 36,
+            "21": 73
+          },
+          "packageName": "com.huawei.calendar",
+          "totalTimeSeconds": 109
+        },
+        {
+          "appName": "花瓣剪辑",
+          "hourlyUsage": {
+            "9": 85
+          },
+          "packageName": "com.huawei.videoeditor",
+          "totalTimeSeconds": 85
+        },
+        {
+          "appName": "com.huawei.notepad",
+          "hourlyUsage": {
+            "0": 17,
+            "11": 9,
+            "12": 5,
+            "16": 16,
+            "18": 4,
+            "20": 5
+          },
+          "packageName": "com.huawei.notepad",
+          "totalTimeSeconds": 56
+        },
+        {
+          "appName": "com.sangfor.vpn.client.phone",
+          "hourlyUsage": {
+            "16": 56
+          },
+          "packageName": "com.sangfor.vpn.client.phone",
+          "totalTimeSeconds": 56
+        },
+        {
+          "appName": "com.tencent.androidqqmail",
+          "hourlyUsage": {
+            "18": 50
+          },
+          "packageName": "com.tencent.androidqqmail",
+          "totalTimeSeconds": 50
+        },
+        {
+          "appName": "支付宝",
+          "hourlyUsage": {
+            "14": 9,
+            "21": 37
+          },
+          "packageName": "com.eg.android.AlipayGphone",
+          "totalTimeSeconds": 46
+        },
+        {
+          "appName": "com.huawei.android.totemweather",
+          "hourlyUsage": {
+            "9": 9,
+            "21": 7,
+            "22": 3
+          },
+          "packageName": "com.huawei.android.totemweather",
+          "totalTimeSeconds": 19
+        },
+        {
+          "appName": "com.huawei.HwMultiScreenShot",
+          "hourlyUsage": {
+            "15": 19
+          },
+          "packageName": "com.huawei.HwMultiScreenShot",
+          "totalTimeSeconds": 19
+        },
+        {
+          "appName": "com.midea.vm.washer",
+          "hourlyUsage": {
+            "21": 13,
+            "22": 3
+          },
+          "packageName": "com.midea.vm.washer",
+          "totalTimeSeconds": 16
+        },
+        {
+          "appName": "com.koudai.weidian.buyer",
+          "hourlyUsage": {
+            "15": 3,
+            "20": 8
+          },
+          "packageName": "com.koudai.weidian.buyer",
+          "totalTimeSeconds": 11
+        },
+        {
+          "appName": "com.huawei.deskclock",
+          "hourlyUsage": {
+            "8": 5,
+            "22": 1
+          },
+          "packageName": "com.huawei.deskclock",
+          "totalTimeSeconds": 6
+        },
+        {
+          "appName": "文件",
+          "hourlyUsage": {
+            "21": 2
+          },
+          "packageName": "com.android.documentsui",
+          "totalTimeSeconds": 2
+        },
+        {
+          "appName": "权限控制器",
+          "hourlyUsage": {
+            "13": 1
+          },
+          "packageName": "com.android.permissioncontroller",
+          "totalTimeSeconds": 1
+        },
+        {
+          "appName": "智慧识屏",
+          "hourlyUsage": {
+            "15": 1
+          },
+          "packageName": "com.huawei.hitouch",
+          "totalTimeSeconds": 1
+        }
+      ],
+      "date": "2025-10-28"
+    },
+    {
+      "apps": [
+        {
+          "appName": "微信",
+          "hourlyUsage": {
+            "7": 18,
+            "8": 20,
+            "10": 156,
+            "11": 296,
+            "12": 126,
+            "14": 77,
+            "15": 58,
+            "16": 79,
+            "17": 50,
+            "18": 1359,
+            "19": 2458,
+            "20": 895,
+            "21": 35
+          },
+          "packageName": "com.tencent.mm",
+          "totalTimeSeconds": 5628
+        },
+        {
+          "appName": "哔哩哔哩",
+          "hourlyUsage": {
+            "11": 169,
+            "17": 2505,
+            "18": 703,
+            "20": 682
+          },
+          "packageName": "tv.danmaku.bili",
+          "totalTimeSeconds": 4059
+        },
+        {
+          "appName": "com.huawei.photos",
+          "hourlyUsage": {
+            "8": 11,
+            "9": 2353,
+            "10": 274,
+            "12": 8,
+            "13": 137,
+            "14": 2,
+            "18": 13
+          },
+          "packageName": "com.huawei.photos",
+          "totalTimeSeconds": 2798
+        },
+        {
+          "appName": "知乎",
+          "hourlyUsage": {
+            "10": 1852,
+            "11": 235,
+            "19": 614,
+            "20": 67
+          },
+          "packageName": "com.zhihu.android",
+          "totalTimeSeconds": 2769
+        },
+        {
+          "appName": "net.crigh.cgsport",
+          "hourlyUsage": {
+            "15": 2472
+          },
+          "packageName": "net.crigh.cgsport",
+          "totalTimeSeconds": 2472
+        },
+        {
+          "appName": "小红书",
+          "hourlyUsage": {
+            "8": 633,
+            "9": 379,
+            "10": 244,
+            "14": 58,
+            "16": 216,
+            "18": 473,
+            "19": 271
+          },
+          "packageName": "com.xingin.xhs",
+          "totalTimeSeconds": 2274
+        },
+        {
+          "appName": "QQ浏览器",
+          "hourlyUsage": {
+            "12": 941,
+            "13": 1272
+          },
+          "packageName": "com.tencent.mtt",
+          "totalTimeSeconds": 2214
+        },
+        {
+          "appName": "淘宝",
+          "hourlyUsage": {
+            "11": 731,
+            "14": 153,
+            "16": 121
+          },
+          "packageName": "com.taobao.taobao",
+          "totalTimeSeconds": 1005
+        },
+        {
+          "appName": "com.deepseek.chat",
+          "hourlyUsage": {
+            "9": 51,
+            "11": 77,
+            "13": 424,
+            "14": 292,
+            "18": 26
+          },
+          "packageName": "com.deepseek.chat",
+          "totalTimeSeconds": 870
+        },
+        {
+          "appName": "com.miHoYo.wd",
+          "hourlyUsage": {
+            "8": 672
+          },
+          "packageName": "com.miHoYo.wd",
+          "totalTimeSeconds": 672
+        },
+        {
+          "appName": "夸克浏览器",
+          "hourlyUsage": {
+            "11": 35,
+            "12": 399,
+            "15": 38,
+            "19": 154
+          },
+          "packageName": "com.quark.browser",
+          "totalTimeSeconds": 626
+        },
+        {
+          "appName": "飞书",
+          "hourlyUsage": {
+            "10": 47,
+            "15": 133,
+            "16": 5,
+            "20": 316,
+            "21": 116
+          },
+          "packageName": "com.ss.android.lark",
+          "totalTimeSeconds": 617
+        },
+        {
+          "appName": "QQ音乐",
+          "hourlyUsage": {
+            "8": 128,
+            "11": 81,
+            "12": 1,
+            "13": 35,
+            "14": 24,
+            "15": 71,
+            "16": 13,
+            "17": 38,
+            "18": 42,
+            "20": 23
+          },
+          "packageName": "com.tencent.qqmusic",
+          "totalTimeSeconds": 456
+        },
+        {
+          "appName": "华为桌面",
+          "hourlyUsage": {
+            "7": 4,
+            "8": 29,
+            "9": 30,
+            "10": 22,
+            "11": 19,
+            "12": 17,
+            "13": 10,
+            "14": 47,
+            "15": 45,
+            "16": 27,
+            "17": 6,
+            "18": 29,
+            "19": 13,
+            "20": 79,
+            "21": 1
+          },
+          "packageName": "com.huawei.android.launcher",
+          "totalTimeSeconds": 378
+        },
+        {
+          "appName": "com.huawei.camera",
+          "hourlyUsage": {
+            "9": 321,
+            "15": 2
+          },
+          "packageName": "com.huawei.camera",
+          "totalTimeSeconds": 323
+        },
+        {
+          "appName": "菜鸟",
+          "hourlyUsage": {
+            "10": 24,
+            "11": 44,
+            "14": 80,
+            "16": 74
+          },
+          "packageName": "com.cainiao.wireless",
+          "totalTimeSeconds": 222
+        },
+        {
+          "appName": "com.netease.skzdhlr",
+          "hourlyUsage": {
+            "8": 187
+          },
+          "packageName": "com.netease.skzdhlr",
+          "totalTimeSeconds": 187
+        },
+        {
+          "appName": "com.huawei.notepad",
+          "hourlyUsage": {
+            "9": 5,
+            "11": 39,
+            "12": 7,
+            "13": 18,
+            "14": 7,
+            "16": 3,
+            "17": 11,
+            "18": 26,
+            "20": 8
+          },
+          "packageName": "com.huawei.notepad",
+          "totalTimeSeconds": 125
+        },
+        {
+          "appName": "com.tencent.androidqqmail",
+          "hourlyUsage": {
+            "14": 27,
+            "18": 85
+          },
+          "packageName": "com.tencent.androidqqmail",
+          "totalTimeSeconds": 112
+        },
+        {
+          "appName": "通话界面",
+          "hourlyUsage": {
+            "11": 4,
+            "16": 57
+          },
+          "packageName": "com.android.incallui",
+          "totalTimeSeconds": 61
+        },
+        {
+          "appName": "com.huawei.android.totemweather",
+          "hourlyUsage": {
+            "8": 4,
+            "14": 48
+          },
+          "packageName": "com.huawei.android.totemweather",
+          "totalTimeSeconds": 52
+        },
+        {
+          "appName": "com.huawei.calendar",
+          "hourlyUsage": {
+            "12": 13,
+            "14": 17,
+            "15": 18
+          },
+          "packageName": "com.huawei.calendar",
+          "totalTimeSeconds": 48
+        },
+        {
+          "appName": "设置",
+          "hourlyUsage": {
+            "9": 14,
+            "20": 25
+          },
+          "packageName": "com.android.settings",
+          "totalTimeSeconds": 39
+        },
+        {
+          "appName": "com.ccnu.jx.xiaoya",
+          "hourlyUsage": {
+            "10": 10,
+            "14": 26
+          },
+          "packageName": "com.ccnu.jx.xiaoya",
+          "totalTimeSeconds": 36
+        },
+        {
+          "appName": "微博",
+          "hourlyUsage": {
+            "14": 26
+          },
+          "packageName": "com.sina.weibo",
+          "totalTimeSeconds": 26
+        },
+        {
+          "appName": "com.midea.vm.washer",
+          "hourlyUsage": {
+            "16": 26
+          },
+          "packageName": "com.midea.vm.washer",
+          "totalTimeSeconds": 26
+        },
+        {
+          "appName": "抖音",
+          "hourlyUsage": {
+            "7": 16
+          },
+          "packageName": "com.ss.android.ugc.aweme",
+          "totalTimeSeconds": 16
+        },
+        {
+          "appName": "com.bankcomm.Bankcomm",
+          "hourlyUsage": {
+            "16": 15
+          },
+          "packageName": "com.bankcomm.Bankcomm",
+          "totalTimeSeconds": 15
+        },
+        {
+          "appName": "com.sangfor.vpn.client.phone",
+          "hourlyUsage": {
+            "15": 9
+          },
+          "packageName": "com.sangfor.vpn.client.phone",
+          "totalTimeSeconds": 9
+        },
+        {
+          "appName": "应用安装器",
+          "hourlyUsage": {
+            "20": 7
+          },
+          "packageName": "com.android.packageinstaller",
+          "totalTimeSeconds": 7
+        },
+        {
+          "appName": "com.huawei.deskclock",
+          "hourlyUsage": {
+            "7": 6
+          },
+          "packageName": "com.huawei.deskclock",
+          "totalTimeSeconds": 6
+        },
+        {
+          "appName": "闲鱼",
+          "hourlyUsage": {
+            "7": 6
+          },
+          "packageName": "com.taobao.idlefish",
+          "totalTimeSeconds": 6
+        },
+        {
+          "appName": "com.huawei.HwMultiScreenShot",
+          "hourlyUsage": {
+            "13": 5
+          },
+          "packageName": "com.huawei.HwMultiScreenShot",
+          "totalTimeSeconds": 5
+        },
+        {
+          "appName": "华为应用市场",
+          "hourlyUsage": {
+            "10": 1,
+            "20": 3
+          },
+          "packageName": "com.huawei.appmarket",
+          "totalTimeSeconds": 4
+        },
+        {
+          "appName": "手机管家",
+          "hourlyUsage": {
+            "20": 4
+          },
+          "packageName": "com.huawei.systemmanager",
+          "totalTimeSeconds": 4
+        },
+        {
+          "appName": "System Share",
+          "hourlyUsage": {
+            "20": 4
+          },
+          "packageName": "com.huawei.android.internal.app",
+          "totalTimeSeconds": 4
+        },
+        {
+          "appName": "智慧识屏",
+          "hourlyUsage": {
+            "9": 1,
+            "20": 2
+          },
+          "packageName": "com.huawei.hitouch",
+          "totalTimeSeconds": 3
+        },
+        {
+          "appName": "UserIAMBase",
+          "hourlyUsage": {
+            "20": 2
+          },
+          "packageName": "com.huawei.coauthservice",
+          "totalTimeSeconds": 2
+        },
+        {
+          "appName": "权限控制器",
+          "hourlyUsage": {
+            "11": 1
+          },
+          "packageName": "com.android.permissioncontroller",
+          "totalTimeSeconds": 1
+        },
+        {
+          "appName": "智慧多窗",
+          "hourlyUsage": {
+            "18": 1
+          },
+          "packageName": "com.huawei.hwdockbar",
+          "totalTimeSeconds": 1
+        }
+      ],
+      "date": "2025-10-29"
+    }
+  ],
+  "days": 7,
+  "deviceType": "Android 12",
+  "exportDate": "2025-10-29"
+}
