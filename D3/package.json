@@ -1,0 +1,17 @@
+{
+  "name": "app-usage",
+  "version": "1.0.0",
+  "description": "系列1：7d 24h App使用时长；系列2：欧盟面积变化图",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel serve src/index.html --port 8080",
+    "build": "parcel build src/index.html --no-minify --dist-dir dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "d3": "^7.9.0"
+  }
+}
