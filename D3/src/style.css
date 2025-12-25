@@ -1,0 +1,685 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #8b4513;
+    --secondary-color: #d2691e;
+    --accent-color: #cd853f;
+    --text-color: #333;
+    --bg-color: #faf0e6;
+    --card-bg: #fffaf0;
+}
+
+/* 基础样式 */
+body {
+    font-family: 'SimSun', 'STKaiti', serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 页眉页脚 */
+header.hero {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+footer.hero {
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin: 4rem 0 0 0; 
+}
+
+/* 使用伪元素扩展宽度 */
+footer.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -105px;
+    right: -105px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    z-index: -1;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    opacity: 0.9;
+    position: relative;
+    padding-left: 2rem;
+    transition: all 0.3s ease;
+}
+
+footer p:hover {
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+/* 章节布局 */
+.section {
+    display: block;
+    padding: 2rem 0;
+}
+
+.section.active {
+    display: block;
+}
+
+.section h2 {
+    border-bottom: 3px solid var(--accent-color);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.section h3 {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* 图表容器 */
+.chart-container {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+/* 数据总览 */
+.intro-section {
+    margin-bottom: 3rem;
+}
+
+.chart-fullwidth {
+    margin-bottom: 3rem;
+}
+
+.chart-fullwidth h3 {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* 作品年表柱状图 */
+#works-bar-chart {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* 文体分布饼图 */
+#genres-pie-chart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* 词云图 */
+.wordcloud-section {
+    margin-bottom: 2rem;
+}
+
+.wordcloud-note {
+    text-align: center;
+    margin-top: 1rem;
+    color: #666;
+    font-style: italic;
+}
+
+/* 诗人简介 */
+.intro-content {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.intro-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.intro-avatar {
+    width: 120px;
+    height: 120px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+}
+
+/* 统计卡片 */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.stat-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    border-left: 4px solid var(--accent-color);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.stat-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.stat-card:hover .stat-number {
+    transform: translateY(-5px);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.7s ease;
+}
+
+.stat-card:hover::before {
+    left: 100%;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.stat-number::after {
+    content: attr(data-suffix);
+}
+
+.stat-number.animating {
+    transform: scale(1.1);
+    text-shadow: 0 0 10px rgba(139, 69, 19, 0.3);
+}
+
+.stat-label {
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+/* 地图模块 */
+#travel-map .chart-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+#travel-map-visualization {
+    width: 100%;
+    height: 500px;
+    min-height: 500px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#location-details {
+    padding: 1.5rem;
+    background: var(--card-bg);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* 地图统计卡片 */
+.stats-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.stat-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.stat-item:last-child {
+    border-bottom: none;
+}
+
+.stat-label {
+    font-weight: bold;
+    color: #8b4513;
+}
+
+.stat-value {
+    color: #333;
+}
+
+/* 地点排名 */
+.top-locations {
+    margin-top: 2rem;
+}
+
+.location-ranking {
+    margin-top: 1rem;
+}
+
+.rank-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    margin: 4px 0;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.rank-item:hover {
+    background: #fffaf0;
+    transform: translateY(-2px);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.rank-number {
+    background: #8b4513;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+.rank-name {
+    flex: 1;
+    font-weight: 500;
+}
+
+.rank-count {
+    color: #d2691e;
+    font-weight: bold;
+}
+
+/* 滚动条样式 */
+.location-ranking::-webkit-scrollbar {
+    width: 7px;
+}
+
+.location-ranking::-webkit-scrollbar-track {
+    background: #f5f5f5;
+    border-radius: 3px;
+}
+
+.location-ranking::-webkit-scrollbar-thumb {
+    background: #d2b48c;
+    border-radius: 3px;
+}
+
+.location-ranking::-webkit-scrollbar-thumb:hover {
+    background: #8b4513;
+}
+
+/* 地点详情 */
+.location-details {
+    margin-top: 2rem;
+}
+
+.location-item {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: white;
+    border-radius: 5px;
+    border-left: 3px solid var(--accent-color);
+}
+
+/* 作品列表表格 */
+.works-list {
+    margin-top: 1rem;
+}
+
+.works-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.works-list th {
+    background: #f5f5f5;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #8b4513;
+    border-bottom: 2px solid #d2b48c;
+}
+
+.works-list td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.works-list tr:hover {
+    background: #fffaf0;
+}
+
+/* 按钮样式 */
+.toggle-btn {
+    background: #8b4513;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.toggle-btn:hover {
+    background: #a0522d;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.toggle-btn:active {
+    transform: translateY(0);
+}
+
+#back-to-stats-btn {
+    background-color: var(--secondary-color);
+    transition: all 0.3s ease;
+}
+
+#back-to-stats-btn:hover {
+    background-color: #8b4513;
+    transform: translateY(-2px);
+}
+
+
+
+/* 饼图 */
+.pie-slice {
+    stroke: white;
+    stroke-width: 2px;
+}
+
+/* 坐标轴 */
+.axis text {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #34495e;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+}
+
+/* 词云图 */
+.word-cloud-group text {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.word-cloud-group text:hover {
+    filter: brightness(1.2);
+    transform: scale(1.05);
+}
+
+/* 工具提示 */
+.tooltip {
+    position: absolute;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    border-radius: 6px;
+    font-size: 12px;
+    max-width: 300px;
+    pointer-events: none;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    line-height: 1.5;
+}
+
+.tooltip strong {
+    color: #ffd700;
+    font-size: 13px;
+}
+
+.tooltip br {
+    display: block;
+    margin-bottom: 4px;
+    content: "";
+}
+
+.wordcloud-tooltip {
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* 意象特征样式 */
+.imagery-features {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #d2b48c;
+}
+
+.imagery-features h4 {
+    color: #8b4513;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.features-content {
+    background: #fffaf0;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.features-content p {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.features-content ol {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.features-content li {
+    margin-bottom: 12px;
+    color: #555;
+}
+
+.features-content strong {
+    color: #8b4513;
+    font-weight: bold;
+}
+
+/* 响应式设计 */
+@media (max-width: 1024px) {
+    #travel-map .chart-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    #travel-map-visualization {
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    #travel-map-visualization {
+        height: 350px;
+    }
+    
+    .map-controls {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .intro-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .intro-avatar {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .section h2 {
+        font-size: 1.5rem;
+    }
+    
+    .features-content {
+        padding: 15px;
+        font-size: 13px;
+    }
+    
+    .features-content ol {
+        padding-left: 18px;
+    }
+}
+
+/* 双图表并列布局 */
+.charts-dual-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.dual-chart {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* 为饼图容器设置固定高度 */
+#genres-pie-chart {
+    height: 600px;
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+}
+
+/* 为词云图容器设置固定高度 */
+#word-cloud-chart {
+    height: 600px;
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+}
+
+/* 确保图表容器在双列布局中正确显示 */
+.dual-chart .chart-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dual-chart .wordcloud-note {
+    margin-top: 1rem;
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+
+/* 响应式设计 */
+@media (max-width: 1200px) {
+    .charts-dual-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    #genres-pie-chart,
+    #word-cloud-chart {
+        height: 450px;
+    }
+}
+
+@media (max-width: 768px) {
+    #genres-pie-chart,
+    #word-cloud-chart {
+        height: 400px;
+    }
+}
+
+/* 确保双图表中的标题居中 */
+.chart-fullwidth h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+

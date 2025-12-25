@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>杜甫 - 数据可视化</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入D3.js和D3云布局库 -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js"></script>
+    <!-- 引入ECharts库 -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.0/dist/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+    
+</head>
+<body>
+    <div id="app">
+        <header class="hero">
+            <div class="container">
+                <h1>杜甫——“会当凌绝顶,一览众山小”</h1>   <!-- 标题 --> 
+                <p class="subtitle">通过数据可视化探索唐代诗圣的创作生涯</p>   <!-- 副标题 -->
+            </div>
+        </header>
+
+        <main class="container">
+            <!-- 数据总览页面 -->
+        <section id="overview" class="section active">
+            <!-- 诗人简介 -->
+            <div class="intro-section">
+                <h2>诗人简介</h2>
+                <div class="intro-content" id="dufu-intro"></div>
+            </div>
+
+    <!-- 作品年表柱状图 -->
+    <div class="chart-fullwidth">
+        <h3>作品年表</h3>
+        <div class="chart-container">
+            <div id="works-bar-chart"></div>
+        </div>
+    </div>
+
+    <!-- 行迹地图页面 -->
+    <section id="travel-map" class="section active">
+        <h2>杜甫行迹地图</h2>
+        <div class="chart-container">
+            <div id="travel-map-visualization"></div>
+            <div id="location-details">
+                <h3>创作地点统计</h3>
+                <div id="location-stats"></div>
+            </div>
+        </div>
+    </section>
+
+
+   <!-- 饼图和词云图左右并列 -->
+    <div class="chart-fullwidth">
+        <h3>文体分析与意象特征</h3>
+        <div class="charts-dual-container">
+            <!-- 左侧：文体分布饼图 -->
+            <div class="dual-chart">
+                <div class="chart-container">
+                    <div id="genres-pie-chart"></div>
+                </div>
+            </div>
+            
+            <!-- 右侧：词云图 -->
+            <div class="dual-chart">
+                <div class="chart-container">
+                    <div id="word-cloud-chart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer class="hero">
+        <div class="container">
+                <p>数据来源：搜韵网</p>
+        </div>
+    </footer>
+    </div>
+
+    <!-- 引入图表组件 -->
+    <script src="genre-3d-pie.js"></script>
+    <script src="bar-chart.js"></script>
+    <script src="word-cloud-chart.js"></script>
+    <script src="travel-map-chart.js"></script>
+    <script src="main.js"></script>
+
+    </body>
+</html>
